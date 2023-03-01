@@ -52,19 +52,8 @@ void Count(int[] array)
         count = 0;
     }
 }
-// void Count(int[] x, int N)
-// {
-//     int[] count = new int[N];
-//     foreach (int number in x)
-//     {
-//         count[number - 1]++;
-//     }
-//     Console.WriteLine(string.Join(" ", x));
-//     Console.WriteLine(string.Join(" ", count));
-    
-// }
 
-int N = NumberFillArray("Введите число");
+int N = NumberFillArray("Введите число:");
 int[] Array = new int[N];
 FillArray(Array, N);
 PrintArray(Array);
